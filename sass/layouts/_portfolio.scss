@@ -1,0 +1,90 @@
+.portfolio__section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.btn-bar__list {
+  @media screen and (min-width: 480px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-style: normal;
+  gap: 8px;
+}
+
+.btn-bar__button {
+  padding: 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: $section-bg-color;
+  transition: box-shadow $timing-function $trans-duration,
+    background-color $timing-function $trans-duration, color $timing-function $trans-duration;
+  &:hover,
+  &:focus {
+    background-color: $item-blue-color;
+    color: $main-title-color;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.projects-list {
+  @media screen and (min-width: 480px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  &__item {
+    /* position: relative; */
+    background-color: $main-title-color;
+    padding: 0;
+    width: 370px;
+  }
+  &__link {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: $main-title-color;
+    text-decoration: none;
+    font-style: normal;
+    transition: box-shadow $timing-function $trans-duration;
+    &:hover,
+    &:focus {
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+  }
+  &__info {
+    padding: 20px 24px;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+  }
+  &__title {
+    margin: 0;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: $title-text-color;
+  }
+  &__text {
+    padding: 0;
+
+    margin: 0;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: $second-text-color;
+  }
+}

@@ -1,0 +1,9 @@
+.button {
+  border: none;
+  font-family: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0;
+  background-color: $item-blue-color;
+  transition: background-color $timing-function $trans-duration;
+}

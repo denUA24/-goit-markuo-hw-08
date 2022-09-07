@@ -1,0 +1,44 @@
+.benefits__section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.cards-list {
+  display: flex;
+  gap: 30px;
+  &__item {
+    max-width: 270px;
+  }
+  &__title {
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-text-color;
+  }
+  &__icon {
+    @extend %align-list;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: $section-bg-color;
+    border-radius: 4px;
+  }
+}
+
+.cards-list__title,
+.team-info__name {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.cards-list__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $second-text-color;
+}
