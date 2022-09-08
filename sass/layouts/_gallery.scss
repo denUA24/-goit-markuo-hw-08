@@ -1,8 +1,10 @@
 .gallery__section {
-  @media (max-width: 768px) {
-    display: none;
-  }
+  display: none;
+
   padding-bottom: 94px;
+  @include desktop {
+    display: block;
+  }
 }
 
 .gallery__title {

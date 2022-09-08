@@ -1,5 +1,5 @@
 .footer {
-  min-height: 252px;
+  // min-height: 252px;
   background-color: #2f303a;
   text-decoration: none;
   list-style: none;
@@ -13,14 +13,7 @@
   }
 }
 
-.footer-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .footer__container {
-  // text-align: center;
-
   text-align: center;
 
   @include tablet {
@@ -36,7 +29,11 @@
     text-align: left;
   }
 }
-
+.footer-info {
+  @include desktop {
+    width: 370px;
+  }
+}
 .logo--white {
   padding: 0;
   color: $main-title-color;
@@ -47,8 +44,11 @@
   letter-spacing: 0.03em;
   color: $main-title-color;
   font-style: normal;
+  margin-bottom: 30px;
+
   @include desktop {
     text-align: left;
+    margin-bottom: 0px;
   }
   &_location {
     list-style: none;
@@ -68,7 +68,7 @@
     color: rgba(255, 255, 255, 0.6);
   }
   &_item:not(:last-child) {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
   }
   &_list .focus-hover:focus,
   &_list .focus-hover:hover {
@@ -80,18 +80,23 @@
   transition: color $timing-function $trans-duration;
 }
 /* Footer social */
+
 .footer-soc {
+  margin-bottom: 60px;
   @include tablet {
     margin-bottom: 102px;
-    margin-left: 165px;
+    margin-left: 170px;
   }
   @include desktop {
     margin-left: 92px;
+    margin-bottom: 0px;
   }
   &__title {
     // display: flex;
-    @include mobile {
-      text-align: center;
+    text-align: center;
+
+    @include desktop {
+      text-align: left;
     }
     margin: 0;
     margin-bottom: 20px;
@@ -158,6 +163,8 @@
 .subscribe__input {
   width: 450px;
 
+  margin-bottom: 20px;
+
   // width: 360px;
   height: 50px;
   resize: none;
@@ -171,9 +178,7 @@
   color: rgba(255, 255, 255, 0.6);
 
   transition: border $timing-function $trans-duration;
-  @include tablet {
-    margin-bottom: 20px;
-  }
+
   @include desktop {
     width: 360px;
     margin: 0;
@@ -213,5 +218,6 @@
 }
 
 .subscribe__icon {
+  // margin-top: 20px;
   margin-left: 10px;
 }

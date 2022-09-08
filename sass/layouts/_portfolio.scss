@@ -1,19 +1,22 @@
-.portfolio__section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+// .portfolio__section {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+// }
 .btn-bar__list {
-  @media screen and (min-width: 480px) {
-    display: flex;
-    flex-wrap: wrap;
-  }
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 40px;
   font-style: normal;
   gap: 8px;
+  @include tablet {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  @include desktop {
+    margin-bottom: 50px;
+  }
 }
-
 .btn-bar__button {
   padding: 6px 22px;
   font-weight: 500;
@@ -33,10 +36,6 @@
 }
 
 .projects-list {
-  @media screen and (min-width: 480px) {
-    display: flex;
-    flex-wrap: wrap;
-  }
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -44,14 +43,31 @@
   padding: 0;
   list-style: none;
   font-style: normal;
+
+  @include desktop {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
   &__item {
-    /* position: relative; */
+    // position: relative;
     background-color: $main-title-color;
     padding: 0;
-    width: 370px;
+    width: 100%;
+    overflow: hidden;
+    @include tablet {
+      width: calc((100% - 30px) / 2);
+    }
+    @include desktop {
+      width: calc((100% - 60px) / 3);
+    }
   }
   &__link {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
     margin: 0;
     padding: 0;
     background-color: $main-title-color;
@@ -69,6 +85,7 @@
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
+    flex-grow: 1;
   }
   &__title {
     margin: 0;

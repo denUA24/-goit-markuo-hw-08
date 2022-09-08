@@ -1,16 +1,5 @@
 .team__section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-
   background-color: $section-bg-color;
-  @include tablet {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  @include desktop {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
 }
 
 .team__title {
@@ -35,11 +24,11 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   text-align: center;
-  width: 270px;
+  // width: 270px;
   background-color: $main-title-color;
-  @include mobile {
-    width: 100%;
-  }
+
+  width: 100%;
+
   @include tablet {
     width: calc((100% - 30px) / 2);
   }
