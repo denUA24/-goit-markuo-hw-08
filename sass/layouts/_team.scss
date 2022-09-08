@@ -1,17 +1,33 @@
 .team__section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: $section-bg-color;
+  @include tablet {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @include desktop {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .team__title {
   text-align: center;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+
+  @include tablet {
+    margin-bottom: 30px;
+  }
 }
 .squad__list {
+  gap: 30px;
+
   display: flex;
-  column-gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .squad__item {
@@ -21,6 +37,15 @@
   text-align: center;
   width: 270px;
   background-color: $main-title-color;
+  @include mobile {
+    width: 100%;
+  }
+  @include tablet {
+    width: calc((100% - 30px) / 2);
+  }
+  @include desktop {
+    width: calc((100% - 90px) / 4);
+  }
 }
 
 .squad-info {

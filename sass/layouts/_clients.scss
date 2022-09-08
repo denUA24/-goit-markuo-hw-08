@@ -1,26 +1,52 @@
 .clients__section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include tablet {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @include desktop {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .clients__title {
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
   letter-spacing: 0.03em;
   color: $title-text-color;
+  @include tablet {
+    margin-bottom: 30px;
+  }
 }
 .clients__list {
+  // display: flex;
+  // justify-content: center;
+  // gap: 30px;
+
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+
   gap: 30px;
 }
 .clients__item {
   width: 170px;
   height: 92px;
+
+  width: calc((100% - 30px) / 2);
+
+  @include tablet {
+    width: calc((100% - 60px) / 3);
+  }
+  @include desktop {
+    width: calc((100% - 150px) / 6);
+  }
 }
 .clients__link {
   @extend %align-list;
