@@ -33,7 +33,9 @@
     visibility $trans-duration $timing-function;
 
   // max-width: 450px;
-
+  // @media screen and (min-width: 200px) and (max-width: 480px) {
+  //   width: 450px;
+  // }
   @include desktop {
     min-height: 580px;
     min-width: 530px;
