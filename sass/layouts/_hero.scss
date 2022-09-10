@@ -1,61 +1,82 @@
 .hero--fon {
-  max-width: 1600px;
-  // height: 400px;
+  height: 400px;
+
   margin-left: auto;
   margin-right: auto;
+  background-color: #2f303a;
 
   padding: 118px 0px;
 
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/fon-hero.jpeg);
+    url(/images/hero-mob-min.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  @include retina {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(/images/hero-mob-2x-min.jpeg);
+  }
+  @include tablet {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(/images/hero-tab-min.jpeg);
+    @include retina {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(/images/hero-tab-2x-min.jpeg);
+      // background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      //   url(/images/hero-tab-2x-min.webp);
+    }
+  }
   @include desktop {
+    max-width: 1600px;
+
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
-  }
-}
-
-.hero {
-  background-color: #2f303a;
-  text-align: center;
-  &__title {
-    margin: auto;
-    margin-bottom: 30px;
-    max-width: 400px;
-
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 1.62;
-    letter-spacing: 0.06em;
-
-    text-transform: uppercase;
-    color: $main-title-color;
-    @include desktop {
-      max-width: 690px;
-
-      font-size: 44px;
-      line-height: 1.36;
-    }
-
-    &__button:focus,
-    &__button:hover {
-      background-color: $focus-color;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/hero.jpeg);
+    @include retina {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/hero-2x-min.jpeg);
     }
   }
-  &__button {
-    justify-content: center;
-    width: 200px;
-    height: 50px;
 
-    // padding: 10px 32px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    color: $main-title-color;
-    cursor: pointer;
+  .hero {
+    text-align: center;
+    &__title {
+      margin: auto;
+      margin-bottom: 30px;
+      max-width: 400px;
+
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 1.62;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: $main-title-color;
+      @include desktop {
+        max-width: 690px;
+
+        font-size: 44px;
+        line-height: 1.36;
+      }
+
+      &__button:focus,
+      &__button:hover {
+        background-color: $focus-color;
+      }
+    }
+    &__button {
+      justify-content: center;
+      width: 200px;
+      height: 50px;
+
+      // padding: 10px 32px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.87;
+      letter-spacing: 0.06em;
+      color: $main-title-color;
+      cursor: pointer;
+    }
   }
 }

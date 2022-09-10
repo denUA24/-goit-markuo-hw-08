@@ -30,8 +30,9 @@
   }
 }
 .footer-info {
-  @include desktop {
-    // width: 370px;
+  margin-bottom: 60px;
+  @include tablet {
+    margin: 0;
   }
 }
 .logo--white {
