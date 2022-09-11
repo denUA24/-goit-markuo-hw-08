@@ -1,0 +1,124 @@
+.mob-menu {
+  position: fixed;
+  background-color: $main-title-color;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  padding: 48px 40px;
+  > .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.button-menu__close {
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  transition: fill $timing-function $trans-duration;
+}
+.button-menu__open {
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  margin-left: auto;
+  transition: fill $timing-function $trans-duration;
+}
+.button-menu__open:hover,
+.button-menu__close:hover {
+  fill: $focus-color;
+}
+// .icon-menu__close {
+//   display: block;
+//   margin-left: auto;
+// }
+.mob-nav__list .current {
+  color: $item-blue-color;
+}
+
+.mob-nav__link:hover,
+.mob-nav__link:focus {
+  color: $item-blue-color;
+}
+
+.mob-nav {
+  //   margin-bottom: 302px;
+  &__list :not(:last-of-type) {
+    margin-bottom: 32px;
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    gap: 32px;
+
+    color: $title-text-color;
+    transition: color $timing-function $trans-duration;
+  }
+}
+
+.mob__contacts {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  color: #2196f3;
+  margin-bottom: 64px;
+  letter-spacing: 0.02em;
+}
+
+.mob__tel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+
+  letter-spacing: 0.02em;
+
+  color: $item-blue-color;
+  text-decoration: none;
+}
+.mob__mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+
+  color: $second-text-color;
+
+  text-decoration: none;
+  transition: color $timing-function $trans-duration;
+}
+.mob__mail:hover,
+.mob__mail:focus {
+  color: $focus-color;
+}
+.social-menu {
+  //   margin-top: auto;
+  &__list {
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    list-style: none;
+    letter-spacing: 0.02em;
+    @media screen and (max-width: 420px) {
+      font-size: 12px;
+      line-height: 1.22;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: $item-blue-color;
+  }
+  &__list :not(:last-child) {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 2px solid rgba(33, 33, 33, 0.2);
+  }
+}

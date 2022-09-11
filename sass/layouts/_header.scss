@@ -1,47 +1,70 @@
 .header {
   border-bottom: 1px solid #ececec;
   &__container {
-    display: flex;
+    @include tablet {
+      display: flex;
+    }
   }
 }
 
 .main-nav {
   @extend %align-list;
   &__list {
-    display: flex;
+    @include tablet {
+      display: flex;
+      position: relative;
+      margin-left: 88px;
+      gap: 50px;
+    }
+    @include desktop {
+      display: flex;
+      position: relative;
+      margin-left: 93px;
+    }
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+  &__link {
     position: relative;
-    margin-left: 93px;
-    gap: 50px;
+    @include tablet {
+      padding-top: 23px;
+      padding-bottom: 23px;
+    }
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    color: $title-text-color;
+    transition: color $timing-function $trans-duration;
   }
 }
 
 .header__logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding: 16px 0px 16px;
+  // padding-top: 24px;
+  // padding-bottom: 25px;
 }
 .logo--black {
   color: $primary-text-color;
 }
-
+.icon-menu {
+  @include tablet {
+    display: none;
+  }
+  position: relative;
+  margin-left: auto;
+}
 /* Header nav */
 
 .main-nav__list .current {
   color: $item-blue-color;
-}
-
-.main-nav__link {
-  position: relative;
-
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-
-  color: $title-text-color;
-  transition: color $timing-function $trans-duration;
 }
 
 .main-nav__list .main-nav__link:hover,
@@ -69,8 +92,8 @@
   &__mail,
   &__tel {
     @extend %align-list;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    // padding-top: 32px;
+    // padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -80,11 +103,27 @@
 
     transition: color $timing-function $trans-duration;
   }
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .header__contacts {
-  margin-left: auto;
-  gap: 30px;
+  @include tablet {
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  @include desktop {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    gap: 30px;
+  }
 }
 .icon-mail,
 .icon-tel {
