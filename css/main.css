@@ -33,8 +33,8 @@ h2 {
 }
 
 .link {
-  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .title {
@@ -123,8 +123,8 @@ h2 {
   cursor: pointer;
   padding: 0;
   background-color: #2196f3;
-  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .header {
@@ -172,8 +172,8 @@ h2 {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
-  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 @media screen and (min-width: 768px) {
   .main-nav__link {
@@ -231,8 +231,8 @@ h2 {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
-  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 @media screen and (max-width: 767px) {
   .contacts {
@@ -492,8 +492,8 @@ h2 {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms, fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms, fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .media__link:hover, .media__link:focus {
   background-color: #2196f3;
@@ -633,8 +633,8 @@ h2 {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
-  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms, fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms, fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms, fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms, fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .clients__link:hover, .clients__link:focus {
   fill: #2196f3;
@@ -730,8 +730,8 @@ h2 {
 }
 
 .focus-hover {
-  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* Footer social */
@@ -849,8 +849,8 @@ h2 {
   border-radius: 4px;
   padding: 16px;
   color: rgba(255, 255, 255, 0.6);
-  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 @media screen and (min-width: 768px) {
   .subscribe__input {
@@ -924,8 +924,8 @@ h2 {
   color: #ffffff;
   width: 200px;
   height: 50px;
-  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .subscribe__btn:focus, .subscribe__btn:hover {
   background-color: #188ce8;
@@ -954,10 +954,10 @@ h2 {
   background: rgba(33, 150, 243, 0.9);
   -webkit-transform: translateY(100%);
           transform: translateY(100%); /* ховає slide в низ по Y на 100% свого розміру */
-  -webkit-transition: -webkit-transform cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: -webkit-transform cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 2150ms, -webkit-transform cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: -webkit-transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: -webkit-transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms, -webkit-transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 @media screen and (min-width: 768px) {
   .slide-box__text {
@@ -1010,10 +1010,10 @@ h2 {
   line-height: 1.62;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
-  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms, color cubic-bezier(0.4, 0, 0.2, 1) 2150ms, -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms, color cubic-bezier(0.4, 0, 0.2, 1) 2150ms, -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 2150ms, background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms, color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 2150ms, background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms, color cubic-bezier(0.4, 0, 0.2, 1) 2150ms, -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, color cubic-bezier(0.4, 0, 0.2, 1) 250ms, -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, color cubic-bezier(0.4, 0, 0.2, 1) 250ms, -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms, background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms, background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, color cubic-bezier(0.4, 0, 0.2, 1) 250ms, -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .btn-bar__button:hover, .btn-bar__button:focus {
   background-color: #2196f3;
@@ -1075,10 +1075,10 @@ h2 {
   background-color: #ffffff;
   text-decoration: none;
   font-style: normal;
-  -webkit-transition: -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 2150ms, -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms, -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .projects-list__link:hover, .projects-list__link:focus {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1180,8 +1180,8 @@ h2 {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   padding: 0;
-  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .modal__cross:focus, .modal__cross:hover {
   fill: #188ce8;
@@ -1243,8 +1243,8 @@ h2 {
   left: 12px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .modal__span:focus-within > .modal__icon {
   fill: #188ce8;
@@ -1257,8 +1257,8 @@ h2 {
   width: 100%;
   padding-left: 42px;
   cursor: pointer;
-  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .modal__input:focus, .modal__input:hover {
   outline: 0;
@@ -1275,8 +1275,8 @@ h2 {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .modal__comment::-webkit-input-placeholder {
   font-size: 12px;
@@ -1352,13 +1352,13 @@ h2 {
   height: 15px;
   border: 2px solid #000000;
   border-radius: 2px;
-  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .modal-checkbox__accept--icon {
   fill: transparent;
-  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .modal-checkbox__link {
   position: relative;
@@ -1393,8 +1393,8 @@ h2 {
   line-height: 1.88px;
   letter-spacing: 0.06em;
   color: #ffffff;
-  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .btn_submit:focus, .btn_submit:hover {
   background-color: #188ce8;
@@ -1438,8 +1438,8 @@ h2 {
   left: 12px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .modal__span:focus-within > .modal__icon {
   fill: #188ce8;
@@ -1452,8 +1452,8 @@ h2 {
   width: 100%;
   padding-left: 42px;
   cursor: pointer;
-  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .modal__input:focus, .modal__input:hover {
   outline: 0;
@@ -1470,8 +1470,8 @@ h2 {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: border cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .modal__comment::-webkit-input-placeholder {
   font-size: 12px;
@@ -1534,8 +1534,8 @@ h2 {
   line-height: 1.88px;
   letter-spacing: 0.06em;
   color: #ffffff;
-  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .btn_submit:focus, .btn_submit:hover {
   background-color: #188ce8;
@@ -1571,8 +1571,8 @@ h2 {
   padding: 0;
   border: none;
   background-color: inherit;
-  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .button-menu__open {
@@ -1580,8 +1580,8 @@ h2 {
   border: none;
   background-color: inherit;
   margin-left: auto;
-  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .button-menu__open:hover,
@@ -1609,8 +1609,8 @@ h2 {
   text-decoration: none;
   gap: 32px;
   color: #212121;
-  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .mob__contacts {
@@ -1638,8 +1638,8 @@ h2 {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
-  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .mob__mail:hover,
@@ -1729,8 +1729,8 @@ h2 {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   padding: 0;
-  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
-  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 2150ms;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .menu__cross:focus, .menu__cross:hover {
   fill: #188ce8;
