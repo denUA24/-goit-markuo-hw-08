@@ -1598,6 +1598,9 @@ h2 {
   color: #2196f3;
 }
 
+.mob-nav {
+  margin-bottom: auto;
+}
 .mob-nav__list :not(:last-of-type) {
   margin-bottom: 32px;
 }
@@ -1620,6 +1623,9 @@ h2 {
   color: #2196f3;
   margin-bottom: 64px;
   letter-spacing: 0.02em;
+}
+.mob__contacts li {
+  margin-bottom: 32px;
 }
 
 .mob__tel {

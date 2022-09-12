@@ -47,7 +47,7 @@
 }
 
 .mob-nav {
-  //   margin-bottom: 302px;
+  margin-bottom: auto;
   &__list :not(:last-of-type) {
     margin-bottom: 32px;
   }
@@ -71,6 +71,9 @@
   color: #2196f3;
   margin-bottom: 64px;
   letter-spacing: 0.02em;
+  & li {
+    margin-bottom: 32px;
+  }
 }
 
 .mob__tel {
